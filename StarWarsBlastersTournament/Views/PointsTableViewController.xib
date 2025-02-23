@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PointsTableViewController" customModule="StarWarsBlastersTournament" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="CMl-hN-pnJ" id="4Ty-BM-25f"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1K-2w-cFx">
+                    <rect key="frame" x="0.0" y="29" width="393" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="YY2-ww-hG7"/>
+                    </constraints>
+                    <textAttributes key="titleTextAttributes">
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="Star Wars Blasters Tournament" id="pUA-2y-Cgo"/>
+                    </items>
+                    <navigationBarAppearance key="standardAppearance">
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="18"/>
+                        </textAttributes>
+                    </navigationBarAppearance>
+                </navigationBar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points Table" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHV-yv-NOS">
+                    <rect key="frame" x="16" y="93" width="83.333333333333329" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Bpa-9M-3OQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CMl-hN-pnJ" userLabel="PointsTableView">
+                    <rect key="frame" x="16" y="135" width="361" height="717"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Fai-sU-6lX"/>
+                        <outlet property="delegate" destination="-1" id="PvW-tu-rNX"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hHV-yv-NOS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="6IE-Iu-oTI"/>
+                <constraint firstItem="CMl-hN-pnJ" firstAttribute="top" secondItem="hHV-yv-NOS" secondAttribute="bottom" constant="20" id="CLR-dB-yT0"/>
+                <constraint firstAttribute="bottom" secondItem="CMl-hN-pnJ" secondAttribute="bottom" id="CQp-aI-Apz"/>
+                <constraint firstItem="hHV-yv-NOS" firstAttribute="top" secondItem="s1K-2w-cFx" secondAttribute="bottom" constant="20" id="N5b-LY-QIS"/>
+                <constraint firstItem="s1K-2w-cFx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QJC-Fo-GMG"/>
+                <constraint firstItem="s1K-2w-cFx" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="-30" id="Wth-qk-YBO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="CMl-hN-pnJ" secondAttribute="trailing" constant="16" id="azL-mq-blQ"/>
+                <constraint firstItem="CMl-hN-pnJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="fQP-YV-FVZ"/>
+                <constraint firstItem="s1K-2w-cFx" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="nit-WF-hPy"/>
+            </constraints>
+            <point key="canvasLocation" x="75.572519083969468" y="-12.67605633802817"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

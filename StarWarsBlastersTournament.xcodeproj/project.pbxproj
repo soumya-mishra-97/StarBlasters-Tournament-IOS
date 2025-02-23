@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7723DD2E2C4080F200B4A960 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723DD2D2C4080F200B4A960 /* MatchesViewModel.swift */; };
+		770C1E292D6BACA000803401 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C1E282D6BAC8F00803401 /* MatchesViewModel.swift */; };
 		7723DD322C40815B00B4A960 /* MatchesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7723DD312C40815B00B4A960 /* MatchesTableViewCell.xib */; };
 		7723DD332C40815B00B4A960 /* MatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7723DD302C40815B00B4A960 /* MatchesTableViewCell.swift */; };
 		772B5F6A2C40406F0023C8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B5F692C40406F0023C8F2 /* AppDelegate.swift */; };
@@ -46,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		563A01B7A359B29ED2C9C156 /* Pods-StarWarsBlastersTournament.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsBlastersTournament.release.xcconfig"; path = "Target Support Files/Pods-StarWarsBlastersTournament/Pods-StarWarsBlastersTournament.release.xcconfig"; sourceTree = "<group>"; };
-		7723DD2D2C4080F200B4A960 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		770C1E282D6BAC8F00803401 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
 		7723DD302C40815B00B4A960 /* MatchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewCell.swift; sourceTree = "<group>"; };
 		7723DD312C40815B00B4A960 /* MatchesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchesTableViewCell.xib; sourceTree = "<group>"; };
 		772B5F662C40406F0023C8F2 /* StarWarsBlastersTournament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsBlastersTournament.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,8 +169,8 @@
 		772B5F7F2C40414E0023C8F2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				770C1E282D6BAC8F00803401 /* MatchesViewModel.swift */,
 				772B5F882C40437B0023C8F2 /* PointsTableViewModel.swift */,
-				7723DD2D2C4080F200B4A960 /* MatchesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -442,11 +442,11 @@
 				772B5F852C40433E0023C8F2 /* Player.swift in Sources */,
 				772B5F912C4048920023C8F2 /* URLProvider.swift in Sources */,
 				772B5F6C2C40406F0023C8F2 /* SceneDelegate.swift in Sources */,
-				7723DD2E2C4080F200B4A960 /* MatchesViewModel.swift in Sources */,
 				772B5FD72C4052690023C8F2 /* PointsTableViewController.swift in Sources */,
 				772B5F982C4049B90023C8F2 /* NetworkManager.swift in Sources */,
 				772B5FD22C4051560023C8F2 /* FontStyles.swift in Sources */,
 				772B5F9F2C404C000023C8F2 /* TournamentRepository.swift in Sources */,
+				770C1E292D6BACA000803401 /* MatchesViewModel.swift in Sources */,
 				772B5FD02C4051100023C8F2 /* UiView+Extension.swift in Sources */,
 				772B5F872C40435D0023C8F2 /* Matches.swift in Sources */,
 				772B5F932C4048C20023C8F2 /* APIRequestHelper.swift in Sources */,
